@@ -1,0 +1,73 @@
+.header {
+  height: 60px;
+  background: var(--card);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  position: fixed;
+  top: 0;
+  left: 240px;
+  right: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: left 0.3s ease;
+}
+
+.layout.collapsed .header {
+  left: 80px;
+}
+
+.header-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.profile-name {
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  color: var(--text);
+  cursor: pointer;
+  display: none;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.theme-toggle:hover {
+  transform: rotate(15deg);
+}
+
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+  .header {
+    left: 0;
+  }
+}

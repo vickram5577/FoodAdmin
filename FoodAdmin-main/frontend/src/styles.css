@@ -1,0 +1,11 @@
+body { font-family: Arial, Helvetica, sans-serif; margin:0; }
+.app { display:flex; min-height:100vh; }
+.sidebar { width:220px; background:#222; color:white; padding:1rem; }
+.sidebar a { color: #ddd; text-decoration:none; display:block; margin:8px 0; }
+.main { flex:1; padding:1rem; }
+.inline-form input, .inline-form select { margin-right:8px; }
+.data-table { width:100%; border-collapse:collapse; margin-top:1rem; }
+.data-table th, .data-table td { border: 1px solid #ddd; padding:8px; }
+.cards { display:flex; gap:16px; margin-top:1rem; }
+.card { padding:16px; border:1px solid #ddd; border-radius:6px; width:150px; text-align:center; }
+.order-row { display:flex; gap:8px; margin:8px 0;}

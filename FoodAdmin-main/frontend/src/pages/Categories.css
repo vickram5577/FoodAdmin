@@ -1,0 +1,125 @@
+.categories-page {
+  padding: 2rem;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+/* Form Card */
+.form-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.form-card h2 {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.category-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.category-form input {
+  flex: 1;
+  min-width: 200px;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.category-form input:focus {
+  border-color: #ff7f50;
+  box-shadow: 0 0 6px rgba(255, 127, 80, 0.4);
+  outline: none;
+}
+
+.btn-primary {
+  background: #ff7f50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.4rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #ff6333;
+}
+
+.table-container {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h2 {
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.styled-table th {
+  background: #ff7f50;
+  color: #fff;
+}
+
+.styled-table tr:hover {
+  background: #fff4ed;
+  transition: 0.2s;
+}
+
+.no-data {
+  text-align: center;
+  padding: 1rem;
+  color: #777;
+}
+
+.btn-delete {
+  background: #ff4b5c;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-delete:hover {
+  background: #c9303e;
+}

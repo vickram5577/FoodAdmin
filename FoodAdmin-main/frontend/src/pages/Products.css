@@ -1,0 +1,165 @@
+.products-page {
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.form-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.form-card h2 {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.product-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.product-form input,
+.product-form select {
+  flex: 1;
+  min-width: 180px;
+  padding: 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.product-form input:focus,
+.product-form select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+  outline: none;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #0056b3;
+}
+
+.table-container {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h2 {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  background: #fff;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.styled-table th {
+  background: #007bff;
+  color: #fff;
+}
+
+.styled-table tr:hover {
+  background: #f1f1f1;
+}
+
+.no-data {
+  text-align: center;
+  padding: 1rem;
+  color: #666;
+}
+
+.category-tag {
+  background: #e3f2fd;
+  color: #007bff;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.status-badge.active {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-badge.inactive {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.btn-delete {
+  background: #ff4b5c;
+  color: white;
+  border: none;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn-delete:hover {
+  background: #c9303e;
+}
+.preview-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: 2px solid #ddd;
+}
+
+.table-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}
